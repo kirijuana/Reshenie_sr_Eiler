@@ -61,7 +61,10 @@ int main()
 	// Разложение числа на простые множители
 	list<int> prime_numb;
 
+	
 	int N = n;	
+	
+
 	int div = 2;
 	while (N > 1)
 	{
@@ -75,7 +78,7 @@ int main()
 
 	float fi_ = 1;
 	int check = 1;
-
+	cout << "n = " << n << " = 1";
 	// Нахождение функции Эйлера
 	for (auto iter = prime_numb.begin(); iter != prime_numb.end(); iter++)
 	{
