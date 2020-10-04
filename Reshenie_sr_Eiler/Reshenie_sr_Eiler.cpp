@@ -9,6 +9,8 @@ using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "Russian");
+
 	int a = 0, n = 0, b = 0;
 	cout << "a = b mod(n)" << "\n";
 	cout << "Введите 3 числа: a, b и n: " << "\n";
@@ -59,10 +61,7 @@ int main()
 	// Разложение числа на простые множители
 	list<int> prime_numb;
 
-	cout << "N = ";
 	int N = n;	
-	cout << N << " = 1";
-
 	int div = 2;
 	while (N > 1)
 	{
